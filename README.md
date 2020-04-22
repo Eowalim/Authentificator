@@ -1,6 +1,6 @@
 # Authentificator
 
-Ce plugin permet d'avoir un système de "compte" sur le serveur lorsque celui accepte les versions crackées.
+Ce plugin permet d'avoir un système de "compte" sur le serveur lorsque celui-ci accepte les versions crackées.
 
 ---
 
