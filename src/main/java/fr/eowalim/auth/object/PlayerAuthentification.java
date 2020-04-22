@@ -92,7 +92,7 @@ public class PlayerAuthentification {
     }
 
     /**
-     * Check si les mot de passe entré est cohérent à celui de la création du compte
+     * Check si le mot de passe entré est cohérent à celui lors la création du compte
      * @param password le mot de passe entré
      * @return boolean
      */
