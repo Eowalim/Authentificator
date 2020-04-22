@@ -9,7 +9,7 @@ import java.sql.*;
 import java.util.Date;
 
 /**
- * Classe TableAuth qui gère la table qui stocke des comptes.
+ * Classe TableAuth qui gère le stockages des comptes.
  * @author Eowalim
  * @version 22/04/2020
  */
