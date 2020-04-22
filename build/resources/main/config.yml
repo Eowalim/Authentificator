@@ -1,0 +1,48 @@
+# The prefix that appears in the console
+# Le préfixe qui apparaît dans la console
+cprefix: "[Authentication] >> "
+
+# The prefix that appears in the game.
+# Le préfixe qui apparaît dans le jeu.
+prefix: "&7[&6AUTH&7] &7&l>>&c "
+
+# The maximum time the player can take to login or register. Beyond that time he will be kicked. (variable is in SECONDS)
+# Le temps maximum que le joueur peut prendre pour se connecter ou s'enregistrer. Au delà il sera expulsé. (la variable est en SECONDS)
+timeKick: 20 # 15 seconds
+
+# The information needed to connect to the database.
+# Les informations nécessaire à la connexion de la base de donnée.
+database:
+  host: "localhost"
+  user: "root"
+  pass: ""
+  dbname: "test"
+  # (MySQL: 3306, PostgreSQL: 5432, MongoDB: 27017)
+  port: 3306
+
+# The name of the table in your DB that manages the accounts created.
+# Le nom de la table dans votre base de donnée qui gère les comptes des joueurs.
+table_name: "auth"
+
+#------------------------------------------Messages---------------------------------------------------------------------
+
+messages:
+  plugin_enable: "&aSuccessful loading !"
+
+  login_sucess: "&7You are logged in."
+  login_wrongPass: "&cIncorrect password."
+  login_noAccount: "&cYou don't have an account on this server. To register: &b/register <password> <password>"
+
+  register_sucess: "&7You have registered."
+  register_passDiff: "&cThe two passwords don't match ! "
+  register_accountExist: "&cYou already have an account on this server. To log in: &b/login <password>"
+
+  kick_message: "&cTime elapsed for login or registration !"
+
+  cmd_register: "&fThe command is: §d/register <password> <password>"
+  cmd_login: "&fThe command is: §d/login <password>"
+
+  join_register: "&aRegister: &d/register <password> <password>"
+  join_login: "&aLogin: &d/login <password>"
+
+  permission: "&cYou do not have permission to execute this command !"

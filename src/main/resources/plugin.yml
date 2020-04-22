@@ -1,0 +1,9 @@
+name: Authentificator
+version: 1.0
+api-version: 1.15
+main: fr.eowalim.auth.Main
+commands:
+  register:
+    description: Command to register on the server.
+  login:
+    description: Command to login on the server.
